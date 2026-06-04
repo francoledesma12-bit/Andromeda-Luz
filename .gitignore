@@ -1,0 +1,101 @@
+# ── CREDENCIALES Y SECRETOS (NUNCA AL REPO) ──────────────────────
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# OAuth, tokens y service accounts
+credentials.json
+token.json
+token_*.json
+*service_account*.json
+andromeda_service_account.json
+insert_keys_vps.py
+upload_keys.py
+
+# ── DATOS DE CLIENTES Y PRIVACIDAD ───────────────────────────────
+clientes.json
+contactos.json
+historial_auditoria_clientes.json
+optout_list*.json
+campaign_whitelist.json
+backup_sheet_*.json
+Lectura_Facil_Chats.txt
+Lectura_Facil_Chats*
+
+# ── BASES DE DATOS Y ESTADO EN EJECUCIÓN ─────────────────────────
+*.db
+*.sqlite
+*.db-wal
+*.db-shm
+states.json
+memory.json
+nuevo_cerebro/states.json
+nuevo_cerebro/memory.json
+nuevo_cerebro/derivaciones_counter.json
+orchestra_log.json
+session_stats.json
+trade_log.json
+synaptic_weights.json
+life_stats.json
+gato_db.json
+global_race_history.json
+bitacora_auditoria.json
+coati_envios.db
+
+# ── MULTIMEDIA TEMPORAL ───────────────────────────────────────────
+_archivos_temporales_multimedia/
+
+# ── BACKUPS ───────────────────────────────────────────────────────
+_backup_*/
+*.bak
+*.bak_*
+
+# ── LOGS Y OUTPUT ────────────────────────────────────────────────
+*.out
+*.log
+*.jsonl
+_monitor_*.stdout
+_monitor_luz_1h_log*
+_monitor_luz_1h_summary*
+_guard_watch_1h_summary*
+scratch/
+
+# ── PYTHON ───────────────────────────────────────────────────────
+*.pyc
+__pycache__/
+venv/
+.venv/
+*.egg-info/
+
+# ── NODE / DASHBOARD ─────────────────────────────────────────────
+node_modules/
+dist/
+build/
+.next/
+package-lock.json
+dashboard1/dist/
+dashboard1/node_modules/
+
+# ── IDEs ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── OTROS ────────────────────────────────────────────────────────
+*.tmp
+*.pdf
+*.mp3
+*.mp4
+*.jfif
+*.jpg
+*.jpeg
+*.png
+*.bat
+agente_config_dashboard.json
+agente_dashboard_interna.json
+mapeo_imagenes.json
+campana_final.py
+cande_orchestra.py
+andromeda_sync.py
+dashboard1/src/src/
